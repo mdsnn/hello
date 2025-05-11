@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Greeting({name = 'Guest'}) {
+export default function Greeting({name = 'Guest', title = 'Mrs'}) {
   return (
     <div>
-      <h1>Hello, {name}</h1>
+      <h1>Hello, {title} {name}</h1>
     </div>
   )
 }
