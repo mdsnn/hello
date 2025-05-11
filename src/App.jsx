@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <div>
-        <Greeting title="Dr." name="Alice" />
-        <Greeting title="Mr." name="George" />
+        <Greeting title="Dr." name="Alice" color="red" />
+        <Greeting title="Mr." name="George" color="blue" />
         <Greeting  />
       </div>
     </>
